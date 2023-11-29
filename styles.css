@@ -1,0 +1,82 @@
+body {
+  font-family: "Lato", sans-serif;
+  font-family: "Nunito Sans", sans-serif;
+  font-family: "Rubik", sans-serif;
+  background-image: url(pexels-pixabay-209831.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.hello {
+  color: red;
+}
+
+.hidden {
+  opacity: 0;
+}
+
+.title {
+  font-size: 5em;
+  text-align: center;
+  color: rgb(243, 214, 149);
+
+  border-radius: 8px;
+  margin: none;
+}
+
+.location {
+  display: flex;
+  text-align: center;
+  height: 10vh;
+  justify-content: center;
+}
+
+.city {
+  border-radius: 10px;
+  width: 25vw;
+  border-radius: 10px;
+  font-size: 25px;
+  text-decoration: underline;
+  background: none;
+  height: 10vh;
+  font-stretch: expanded;
+
+  font-weight: bold;
+  font-size: auto;
+}
+
+#region {
+  border-radius: 10px;
+  width: 25vw;
+  border-radius: 10px;
+  font-size: 25px;
+  text-decoration: underline;
+  background: none;
+  height: 10vh;
+  font-stretch: expanded;
+
+  font-weight: bold;
+  font-size: auto;
+}
+button {
+  background: none;
+  border-radius: 6px;
+  border: none;
+}
+button:hover {
+  background-color: whitesmoke;
+}
+
+.city:focus {
+  background-color: lightblue;
+}
+.weatherCard {
+  position: absolute;
+  right: 50%;
+
+  margin-top: 5rem;
+  background-color: rgb(198, 243, 239);
+  border-radius: 12px;
+  padding: 20px;
+  font-weight: bolder;
+}

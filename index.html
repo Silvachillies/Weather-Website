@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="upgrade-insecure-requests"
+    />
+
+    <title>Weather APP</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato&family=Nunito+Sans:ital@1&family=Rubik:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <h1 class="title">WEATHER APP</h1>
+
+    <form class="location">
+      <input
+        class="city"
+        id="city"
+        type="text"
+        placeholder="Enter Location...."
+      />
+
+      <span class="space" style="padding: 15px">
+        <button type="submit" id="submitBtn">
+          <img
+            src="magnifying-glass-svgrepo-com.svg"
+            svg
+            fill="#000000"
+            height="40px"
+            width="40px"
+            version="1.1"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 512 512"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            enable-background="new 0 0 512 512"
+          />
+        </button>
+      </span>
+    </form>
+    <div class="weatherCard">
+      <p class="name"></p>
+      <p class="region"></p>
+      <p class="temp"></p>
+      <p class="feelsLike"></p>
+      <p class="condition"></p>
+      <p class="maxtemp"></p>
+      <p class="mintemp"></p>
+      <p class="precip"></p>
+      <p class="humidity"></p>
+      <p class="windspeed"></p>
+    </div>
+    <p class="error"></p>
+    <script src="main.js"></script>
+  </body>
+</html>
